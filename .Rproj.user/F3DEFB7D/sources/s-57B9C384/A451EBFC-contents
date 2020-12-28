@@ -12,7 +12,13 @@ names(ecommdata)
 levels(ecommdata)
 ecommdata
 
-# show all products with quantity greater than 6
+# show values for rows and columns
 
-subset(ecommdata, quantity > 10, select = e(description, quantity))
+ecommdata [1,3]
+ecommdata [1,4]
+ecommdata [1,4]
+ecommdata [,4] > 6
+ecommdata [,4] >= 6
+
+
 
