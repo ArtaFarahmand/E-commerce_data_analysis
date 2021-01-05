@@ -1,9 +1,9 @@
 {
     "id": "A451EBFC",
-    "path": "~/Google Drive/Education/Udacity /Programming-For-Data Science/R/Practice/E-commerce data analysis/E-Commerce-Analysis.R",
+    "path": "~/Google Drive/Education/Udacity /Programming-For-Data Science/R/Practice/E-commerce-data- Analysis/E-Commerce-Analysis.R",
     "project_path": "E-Commerce-Analysis.R",
     "type": "r_source",
-    "hash": "3772286061",
+    "hash": "1110502585",
     "contents": "",
     "dirty": false,
     "created": 1609095761042.0,
@@ -11,16 +11,16 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "17,15",
-        "scrollLine": "0",
+        "cursorPosition": "26,28",
+        "scrollLine": "4",
         "ignored_words": "dataset\n"
     },
     "folds": "",
-    "lastKnownWriteTime": 1609126438,
+    "lastKnownWriteTime": 1609874488,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1609126438205,
+    "last_content_update": 1609874488405,
     "read_only": false,
     "read_only_alternatives": []
 }

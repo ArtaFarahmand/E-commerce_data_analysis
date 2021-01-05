@@ -1,7 +1,16 @@
-# import dataset for analysis
+# install required packages
 
 install.packages("readxl")
 library("readxl")
+
+install.packages('ggplot2')
+library('ggplot2')
+
+install.packages('ggthemes', dependencies = TRUE)
+library(ggthemes)
+
+# import dataset for analysis
+
 ecommdata = read.csv("dataset/data.csv")
 
 # different methods for viewing data in R
@@ -12,13 +21,10 @@ names(ecommdata)
 levels(ecommdata)
 ecommdata
 
-# show values for rows and columns
+# plot data in histogram
 
-ecommdata [1,3]
-ecommdata [1,4]
-ecommdata [1,4]
-ecommdata [,4] > 6
-ecommdata [,4] >= 6
+ggplot(aes(x = InvoiceDate, y = UnitPrice), data = ecommdata) +
+  geom_bar(stat = "identity")
 
 
 
